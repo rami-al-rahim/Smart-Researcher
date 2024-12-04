@@ -21,7 +21,7 @@
     </script>
 
     <script>
-        if(window.location.port == 5500) return;
+        if (window.location.port == 5500) return;
         (function (s, e, n, d, er) {
             s['Sender'] = er;
             s[er] = s[er] || function () {
@@ -52,6 +52,10 @@
                     <li class="nav-item"></li>
                 </ul>
             </div>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-primary my-2 my-sm-0 mr-3" onclick="window.open('https://app.smart-researcher.rami-dev.com/login')">Login</button>
+                <button class="btn btn-primary my-2 my-sm-0" onclick="window.open('https://app.smart-researcher.rami-dev.com/create-account')">Get Started</button>
+            </form>
         </nav>
     </headers>
     <div id="Home" class="hero-section">
@@ -60,8 +64,7 @@
                 <div class="col-md-6 hero-text">
                     <h1>find data and resources faster</h1>
                     <p>With customized from biggest websites worldwide</p>
-                            <button id="submit" class="btn btn-primary">Book My
-                        Place in Waiting list</button>
+                    <button class="btn btn-primary" onclick="window.open('https://app.smart-researcher.rami-dev.com/')">Get Started</button>
                     <div>
                         <h4 style="margin-bottom:15px;margin-top:10px">Will not sell your data or give it to any one
                         </h4>
